@@ -45,7 +45,9 @@ var ign = new L.TileLayer.WMTS( url ,
                                    style: "normal",
                                    tilematrixSet: "PM",
                                    format: "image/jpeg",
-                                   attribution: "<a href='https://github.com/mylen/leaflet.TileLayer.WMTS'>GitHub</a>&copy; <a href='http://www.ign.fr'>IGN</a>"
+                                   attribution: "<a href='https://github.com/mylen/leaflet.TileLayer.WMTS'>GitHub</a>&copy; <a href='http://www.ign.fr'>IGN</a>",
+                                   getfeatureinfo:true,
+                                   infoformat:"application/json",
                                }
                               );
 var map = L.map('map').setView([48.505, 3.09], 13);
