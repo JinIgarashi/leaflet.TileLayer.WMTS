@@ -5,11 +5,9 @@ Add WMTS layering for leaflet. I modified a bit the code from IGN that you can f
 
 http://api.ign.fr/tech-docs-js/examples/js/geoportalLeaflet.js
 
+Added getFeatureInfo function to plugin. I modified the code from leaflet-tilelayer-wmts plugin that you can find here:
 
-
-Demo
-http://leaflet.melard.fr
-
+https://github.com/mylen/leaflet.TileLayer.WMTS
 
 In order to use this plugin, include the leaflet-tilelayer-wmts.js on your page and use it as follow:
 
